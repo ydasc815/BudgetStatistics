@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
 
         decoView.addEvent(new DecoEvent.Builder(seriesMax)
                 .setIndex(BackIndex)
-                .setDuration(3000)
+                .setDuration(2000)
                 .setDelay(100)
                 .build());
 
@@ -146,42 +146,42 @@ public class MainActivity extends AppCompatActivity {
 
         decoView.addEvent(new DecoEvent.Builder(46f)
                 .setIndex(Series1Index)
-                .setDelay(3250)
+                .setDelay(3000)
                 .build());
 
         decoView.addEvent(new DecoEvent.Builder(DecoDrawEffect.EffectType.EFFECT_SPIRAL_OUT)
                 .setIndex(Series2Index)
                 .setDuration(1000)
                 .setEffectRotations(1)
-                .setDelay(7000)
+                .setDelay(2000)
                 .build());
 
         decoView.addEvent(new DecoEvent.Builder(38f)
                 .setIndex(Series2Index)
-                .setDelay(8500)
+                .setDelay(2000)
                 .build());
 
         decoView.addEvent(new DecoEvent.Builder(DecoDrawEffect.EffectType.EFFECT_SPIRAL_OUT)
                 .setIndex(Series3Index)
                 .setDuration(1000)
                 .setEffectRotations(1)
-                .setDelay(12500)
+                .setDelay(2000)
                 .build());
 
         decoView.addEvent(new DecoEvent.Builder(28f)
                 .setIndex(Series3Index)
-                .setDelay(14000)
+                .setDelay(2000)
                 .build());
         decoView.addEvent(new DecoEvent.Builder(DecoDrawEffect.EffectType.EFFECT_SPIRAL_OUT)
                 .setIndex(Series4Index)
                 .setDuration(1000)
                 .setEffectRotations(1)
-                .setDelay(14000)
+                .setDelay(2000)
                 .build());
 
         decoView.addEvent(new DecoEvent.Builder(14f)
                 .setIndex(Series4Index)
-                .setDelay(15000)
+                .setDelay(2000)
                 .build());
 
 //        decoView.addEvent(new DecoEvent.Builder(0).setIndex(Series3Index).setDelay(18000).build());
